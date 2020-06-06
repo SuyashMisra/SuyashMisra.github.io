@@ -83,8 +83,17 @@ body {
   color: white;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .col-md-4 {
-  	max-width: 47%;
+    max-width: 47%;
   }
 }
+
+.card.special-skill-item.border-0:hover {
+  transform: scale(1.08);
+}
+
+.card.special-skill-item.border-0 {
+  transition: transform .5s;
+}
+
