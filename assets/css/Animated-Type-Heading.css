@@ -14,7 +14,6 @@
 }
 
 .blc {
-	text-align: right;
   /*font-size: 70px;*/
 }
 
@@ -55,5 +54,9 @@
   .cd-headline.clip {
     font-size: 50px;
   }
+}
+
+.blc {
+  text-align: right;
 }
 
