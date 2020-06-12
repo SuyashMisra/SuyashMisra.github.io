@@ -165,3 +165,7 @@ a:hover {
   }
 }
 
+.list-brd-top {
+  border-top: 4px solid #0ea0ff!important;
+}
+
