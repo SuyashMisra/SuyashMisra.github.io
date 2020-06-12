@@ -130,3 +130,38 @@ a:hover {
   border-top-width: 0;
 }
 
+@media (max-width: 767px) {
+  .navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 70px;
+    background-color: rgba(0,0,0,0.9);
+    left: 0;
+    flex-direction: column;
+    height: auto;
+    width: 40%;
+    transition: left 0.35s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    padding-top: 70px;
+    top: 0;
+    width: 40%;
+    bottom: 0;
+    left: -40%;
+    transition: all 0.35s ease;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    line-height: 3.5;
+  }
+}
+
