@@ -37,7 +37,7 @@
 
 .cd-headline b.is-visible {
   opacity: 1;
-  font-weight: 900;
+  /*font-weight: 900;*/
 }
 
 .cd-headline.clip {

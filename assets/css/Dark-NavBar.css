@@ -67,6 +67,10 @@
   background-color: transparent;
 }
 
+button:focus {
+  outline: none;
+}
+
 .portfolio-block.skills {
   border-bottom: initial;
 }
