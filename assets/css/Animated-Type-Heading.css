@@ -44,6 +44,12 @@
   font-size: 28px;
 }
 
+@media only screen and (max-width:352px){
+    .cd-headline.clip {
+        font-size: 24px!important;
+    }
+}
+
 @media (min-width: 992px) {
   .cd-headline.clip {
     font-size: 70px!important;
@@ -69,3 +75,8 @@
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 355px){
+    .display-4 {
+        font-size: 43px!important;
+    }
+}
