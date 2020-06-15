@@ -145,7 +145,7 @@ a:hover {
     flex-direction: column;
     height: auto;
     width: 40%;
-    transition: left 0.35s ease;
+    transition: left 0.27s ease;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   }
 }
@@ -159,7 +159,7 @@ a:hover {
     width: 40%;
     bottom: 0;
     left: -40%;
-    transition: all 0.35s ease;
+    transition: all 0.27s ease;
   }
 }
 
