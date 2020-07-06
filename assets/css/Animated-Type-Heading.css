@@ -13,10 +13,6 @@
   top: 0;
 }
 
-.blc {
-  /*font-size: 70px;*/
-}
-
 .cd-words-wrapper b.is-visible {
   position: relative;
 }
@@ -59,6 +55,28 @@
 @media (min-width: 768px) {
   .cd-headline.clip {
     font-size: 50px;
+  }
+}
+
+.heading{
+  margin-bottom: 6.25rem!important;
+  font-size: 4rem;
+}
+
+.subheading{
+  font-size: 3rem;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .heading{
+    font-size: 2.9rem;
+  }
+  .subheading{
+    font-size: 2.5rem;
+  }
+  #lowerblock{
+    padding-bottom: 0px;
   }
 }
 
